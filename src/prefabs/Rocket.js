@@ -18,7 +18,7 @@ class Rocket extends Phaser.GameObjects.Sprite{
                 this.x -= this.moveSpeed;
             } else if (keyRIGHT.isDown && this.x <= game.config.width - borderUISize - this.width){
                 this.x += this.moveSpeed;
-            }
+            } 
         }
         //fire button
         //just down command only activates when it is pressed down once
